@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Black Clock",
+  "version": "1.0",
+  "description": "Black new tab with centered date and time.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}

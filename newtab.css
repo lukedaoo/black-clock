@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#time {
+  font-size: 7rem;
+  font-weight: 200;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+  user-select: none;
+}
+
+#date {
+  font-size: 1.5rem;
+  color: #aaa;
+}
